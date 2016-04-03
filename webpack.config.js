@@ -8,10 +8,7 @@ module.exports = {
         alias: {}
     },
     output: {
-        //path.join ensures this works in other OS
-        path: path.join(__dirname, ''),
-        filename: 'bundle.js',
-        //publicPath here ('dist') should match content-base on package.json
+        //publicPath is required and needs to be a url
         publicPath: 'http://localhost:8080/',
     },
     plugins: plugins,
