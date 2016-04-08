@@ -1,6 +1,11 @@
 # electron-livereload-starter
 
-This electron starter uses webpack-dev-server to automatically reload changes while developing.
+This electron starter uses webpack-dev-server to automatically reload changes while developing an electron app.
+The objective of this is to make a very simple skeleton project so the developer can get a better understanding
+on how everything fits together.
+
+There are starter projects like [https://github.com/chentsulin/electron-react-boilerplate](electron-react-boilerplate) that
+you can use that has react+redux.
 
 ```shell
 npm install
